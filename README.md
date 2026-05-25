@@ -36,17 +36,18 @@ FrogCoach:
 ---
 
 ## ▶️ Demo Video
-👉 Add your video link here (YouTube or Streamable)
+👉 https://streamable.com/11k74c
 
 ---
 
 ## ⚙️ Setup
-1. Clone repo  
-2. Open in environment  
-3. Run agent  
-4. Ask: "Plan my day based on my calendar"
+1. Review the README and demo video  
+2. Understand the sample execution plan output provided  
+3. Interact with the agent (conceptually) using a prompt like:
 
----
+   "Plan my day based on my calendar"
+
+The agent generates a risk-aware, time-blocked execution plan using calendar context and email-derived risk signals.
 
 ## ⭐ Technical Highlights
 - LLM-based decision engine  
@@ -58,3 +59,14 @@ FrogCoach:
 ## 🚧 Learnings
 - Translating signals into decisions  
 - Designing realistic plans  
+
+## 🧪 Example Prompts
+
+You can test FrogCoach using prompts like:
+
+- "Plan my day based on my calendar"
+- "What should I focus on today considering deadlines?"
+- "Adjust my schedule based on new urgent work"
+- "Show me highest risk items from my emails"
+
+These prompts demonstrate how the agent generates a risk-aware execution plan.
